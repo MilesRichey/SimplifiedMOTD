@@ -2,6 +2,8 @@ SimplifiedMOTD
 ==============
 *_A simple motd plugin for BungeeCord_*
 
+[SpigotMC Resource Link](https://www.spigotmc.org/resources/simplifiedmotd.45340/ "SimplifiedMOTD on Spigot")
+
 Have you ever wanted to customize your motd on BungeeCord, but couldn't find the right plugin or configuration that just fit? Well this plugin is for you then.
 
 For Server Owners/Admins
@@ -16,7 +18,13 @@ For Server Owners/Admins
 
 ### Configuration
 ```yaml
-motd:
+# Placeholders:
+#   '\n': creates a newline
+#   '<current_players>': Number of players currently on all servers
+#   '<max_players>': Number of the maximum players the server can hold
+# We will choose one of these motds to show a player randomly.
+# If there's only one motd then only one will be shown.
+motds:
   - '&a&lWelcome to\n    &b&lMy Server'
   - '&b&lWelcome to\n    &a&lMy Server'
 ```
