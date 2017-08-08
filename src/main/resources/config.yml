@@ -1,0 +1,9 @@
+# Placeholders:
+#   '\n': creates a newline
+#   '<current_players>': Number of players currently on all servers
+#   '<max_players>': Number of the maximum players the server can hold
+# We will choose one of these motds to show a player randomly.
+# If there's only one motd then only one will be shown.
+motds:
+  - '&a&lWelcome to\n    &b&lMy Server'
+  - '&b&lWelcome to\n    &a&lMy Server'
